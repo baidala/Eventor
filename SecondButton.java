@@ -18,7 +18,9 @@ public class SecondButton implements Callback {
     
     @Override
     public void startButtonById(int id) {
+        if (buttonId == id) {
         System.out.println("We are in SecondButton with id "+ buttonId);
+        }
     }
     
     
