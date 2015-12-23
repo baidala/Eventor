@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ua.com.itstepandroid11.baydala;
+package ua.com.itstepandroid11.baidala;
 
 /**
  *
@@ -19,9 +19,8 @@ public class FirstButton implements Callback {
     @Override
     public void startButtonById(int id) {
         if ( buttonId == id ) {
-            System.out.println("Click First");
+            System.out.println("Click First button_"+id);
         }
     }
-    
     
 }
