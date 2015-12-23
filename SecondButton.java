@@ -10,10 +10,15 @@ package ua.com.itstepandroid11.baidala;
  * @author student
  */
 public class SecondButton implements Callback {
-
+    private int buttonId;
+    
+    SecondButton (int id) {
+        buttonId = id;
+    }
+    
     @Override
     public void startButtonById(int id) {
-        
+        System.out.println("We are in SecondButton with id "+ buttonId);
     }
     
     
